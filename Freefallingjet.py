@@ -220,6 +220,7 @@ assign(unkn0.sub(1), vv0)
 Re=rho_ref*u_ref*x_ref/mu_ref
 We=rho_ref*u_ref*u_ref*x_ref/sig_ref
 Fr=u_ref/(x_ref*g_ref)**0.5
+El=0 # In this project El means nothing
 if processID == 0: print('Re= %.8s'%Re,'We= %.6s'%We,'Fr= %.6s'%Fr,'mu= %.6s'%mu_ref,'El= %.3s'%El)
 K0=1.#K_ref#1.
 #K0=K_ref#1.
